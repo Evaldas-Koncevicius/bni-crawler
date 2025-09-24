@@ -37,7 +37,7 @@ It collects details such as **Name, Company, Description, Phone number, and Emai
 
 3.  **Run the script:**
     ```bash
-    python bni_crawler.py
+    python BNI.py
     ```
 
  4. **Provide the required inputs when prompted:**
