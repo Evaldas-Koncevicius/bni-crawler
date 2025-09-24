@@ -15,6 +15,7 @@ It collects details such as **Name, Company, Description, Phone number, and Emai
 
 ---
 
+
 ## ⚙️ Requirements  
 - Python **3.8+**  
 - **Google Chrome**  
@@ -25,21 +26,31 @@ It collects details such as **Name, Company, Description, Phone number, and Emai
 pip install selenium beautifulsoup4
 ```
 
-## 📖 Usage  
+## 📖 Usage
 
-Run the script in a terminal:  
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Evaldas-Koncevicius/bni-crawler.git](https://github.com/Evaldas-Koncevicius/bni-crawler.git)
+    cd bni-crawler
+    ```
 
-```bash
-python BNI.py
-```
+2.  **Install the required packages:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-## 📝 Provide the required inputs when prompted:
+3.  **Run the script:**
+    ```bash
+    python bni_crawler.py
+    ```
 
-- BNI website extension (example: lt → for https://bni.lt)
+ 4. **Provide the required inputs when prompted:**
 
-- Output filename (example: membersLt, **do not add .csv**)
+        - BNI website extension (example: lt → for https://bni.lt)
 
-- Delay in seconds for page loading (default = 3 if left empty)
+        - Output filename (example: membersLt, **do not add .csv**)
+
+        - Delay in seconds for page loading (default = 3 if left empty)
 
 
 ## 📂 Progress is saved automatically:
