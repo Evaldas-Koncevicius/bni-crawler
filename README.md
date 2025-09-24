@@ -30,7 +30,7 @@ pip install selenium beautifulsoup4
 Run the script in a terminal:  
 
 ```bash
-python bni_scraper.py
+python BNI.py
 ```
 
 ## 📝 Provide the required inputs when prompted:
