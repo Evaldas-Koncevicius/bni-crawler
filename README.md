@@ -33,7 +33,7 @@ Run the script in a terminal:
 python bni_scraper.py
 ```
 
-##📝 Provide the required inputs when prompted:
+## 📝 Provide the required inputs when prompted:
 
 - BNI website extension (example: lt → for https://bni.lt)
 
@@ -42,7 +42,7 @@ python bni_scraper.py
 - Delay in seconds for page loading (default = 3 if left empty)
 
 
-##📂 Progress is saved automatically:
+## 📂 Progress is saved automatically:
 
 - Main results → membersLt.csv
 
