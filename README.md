@@ -20,7 +20,7 @@ It collects details such as **Name, Company, Description, Phone number, and Emai
 - Python **3.8+**  
 - **Google Chrome**  
 - [ChromeDriver](https://chromedriver.chromium.org/) (matching your Chrome version)
-- 
+
 
 ## 📖 Usage
 
