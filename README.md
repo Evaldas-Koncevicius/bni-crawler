@@ -9,7 +9,7 @@ It collects details such as **Name, Company, Description, Phone number, and Emai
 - Uses **Selenium WebDriver** for navigation and waits.  
 - Supports **resuming from last progress** with `BNI_Pending_*.csv`.  
 - Exports:  
-  - Main results → `[filename.csv](https://github.com/Evaldas-Koncevicius/bni-crawler/blob/main/output_example.csv)`  
+  - Main results → [filename.csv](https://github.com/Evaldas-Koncevicius/bni-crawler/blob/main/output_example.csv)
   - Remaining links (if interrupted) → `BNI_Pending_filename.csv`  
   - Failed links → `BNI_Failed_Links_filename.csv`  
 
