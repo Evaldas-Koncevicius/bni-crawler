@@ -44,9 +44,9 @@ It collects details such as **Name, Company, Description, Phone number, and Emai
 
         Enter bni website extension (example: lt):
 
-        Enter file name for scraped information (example: membersLt)
+        Enter file name for scraped information (example: membersLt):
 
-        Enter delay in seconds for browser to load pages (default: 3, when entering nothing)
+        Enter delay in seconds for browser to load pages (default: 3, when entering nothing):
 
 
 ## 📂 Progress is saved automatically:
