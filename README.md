@@ -23,6 +23,7 @@ It collects details such as **Name, Company, Description, Phone number, and Emai
 
 ```bash
 pip install selenium beautifulsoup4
+```
 
 ## 📖 Usage  
 
@@ -30,6 +31,7 @@ Run the script in a terminal:
 
 ```bash
 python bni_scraper.py
+```
 
 ##📝 Provide the required inputs when prompted:
 
