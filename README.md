@@ -19,12 +19,8 @@ It collects details such as **Name, Company, Description, Phone number, and Emai
 ## ⚙️ Requirements  
 - Python **3.8+**  
 - **Google Chrome**  
-- [ChromeDriver](https://chromedriver.chromium.org/) (matching your Chrome version)  
-- Python packages:  
-
-```bash
-pip install selenium beautifulsoup4
-```
+- [ChromeDriver](https://chromedriver.chromium.org/) (matching your Chrome version)
+- 
 
 ## 📖 Usage
 
@@ -46,11 +42,11 @@ pip install selenium beautifulsoup4
 
  4. **Provide the required inputs when prompted:**
 
-        - BNI website extension (example: lt → for https://bni.lt)
+        Enter bni website extension (example: lt):
 
-        - Output filename (example: membersLt, **do not add .csv**)
+        Enter file name for scraped information (example: membersLt)
 
-        - Delay in seconds for page loading (default = 3 if left empty)
+        Enter delay in seconds for browser to load pages (default: 3, when entering nothing)
 
 
 ## 📂 Progress is saved automatically:
