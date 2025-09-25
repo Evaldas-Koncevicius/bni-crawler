@@ -33,6 +33,11 @@ def main(raw_link, filename, delay):
     if os.path.exists(f'{filename}.csv') and os.path.exists(f'BNI_Pending_{filename}.csv'):
         get_member_info(driver, filename)
 
+    elif os.path.exists(f'BNI_Pending_{filename}.csv'):
+        with open (f'{filename}.csv', 'w') as file:
+            file.write("#;Name;Company;Description;Phone number;Email link")
+
+        get_member_info(driver, filename)
 
     else:
         with open (f'{filename}.csv', 'w') as file:
